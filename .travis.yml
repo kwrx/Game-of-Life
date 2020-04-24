@@ -21,7 +21,7 @@ addons:
       - liballegro-video5-dev
 
 script:
-  make
+  make HOST=${HOST} dist
 
 
 
@@ -38,7 +38,7 @@ deploy:
   token:
     "$GH_TOKEN"
   file:
-    ${HOST}-game-of-life-$TRAVIS_TAG.tar.xz
+    ${HOST}-game-of-life.tar-$TRAVIS_TAG.tar.xz
 
   overwrite: true
   draft: false
