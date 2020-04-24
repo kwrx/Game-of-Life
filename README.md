@@ -2,7 +2,18 @@
 [![Build Status](https://travis-ci.com/kwrx/Game-of-Life.svg?branch=master)](https://travis-ci.com/kwrx/Game-of-Life)
 
 
-## Description
+
+### How to run?
+```sh
+$> git clone https://github.com/kwrx/Game-of-Life
+$> cd Game-of-Life
+$> make run
+```
+
+
+-------------------------------------------------------
+
+### Description
 Remake of the Game of Life, a popular cellular automata, developed using **Allegro**, a simple cross platform 2D graphic library, and **OpenMP**, a popular API used for parallel programming on memory shared systems.
 
 ![Game of Life - Screenshot](/docs/anim.gif)
@@ -26,33 +37,11 @@ Users can play in the Game of Life's World, through **Mouse** and **Keyboard**, 
 
 |  Tastiera              |  Mouse         |         Spiegazione                             |
 |:----------------------:|:--------------:|------------------------------------------------:|
-|                        | Wheel          |  Change zoom factor of the scene                |
+|                        | Wheel          |  Zoom in/out the scene                          |
 |   *WASD* e *↑ ← ↓ →*   | Right Click    |  Move around the world                          |
 |                        | Left Click     |  Active a dead cell                             |
 |   *F*                  |                |  Freeze/unfreeze life generation cycle          |
 |   *M*                  |                |  Show/hide minimap                              |
 |   *I*                  |                |  Show/hide in-screen instructions               |
 |   *Escape*             |                |  Quit game                                      |
-
-
-
-### How to compile?
-```sh
-$> make
-```
-## How to run?
-```sh
-$> make run
-```
-
-### Project structure
-```
-.
-├── LICENSE
-├── Makefile
-├── README.md
-└── src
-    └── gol.cpp
-
-```
 
