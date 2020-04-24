@@ -35,7 +35,7 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 ### Instructions:
 Users can play in the Game of Life's World, through **Mouse** and **Keyboard**, *moving around*, *scaling* and *interacting* with entire scene with the following commands:
 
-|  Tastiera              |  Mouse         |         Spiegazione                             |
+|  Keyboard              |  Mouse         |         Description                             |
 |:----------------------:|:--------------:|------------------------------------------------:|
 |                        | Wheel          |  Zoom in/out the scene                          |
 |   *WASD* e *↑ ← ↓ →*   | Right Click    |  Move around the world                          |
