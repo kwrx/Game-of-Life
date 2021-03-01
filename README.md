@@ -1,6 +1,6 @@
 # Game of Life
 [![Build Status](https://travis-ci.com/kwrx/Game-of-Life.svg?branch=master)](https://travis-ci.com/kwrx/Game-of-Life)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
 
 
 ### How to run?
@@ -45,3 +45,9 @@ Users can play in the Game of Life's World, through **Mouse** and **Keyboard**, 
 |   *I*                  |                |  Show/hide in-screen instructions               |
 |   *Escape*             |                |  Quit game                                      |
 
+
+## License
+
+Copyright (c) Antonino Natale. All rights reserved.
+
+Licensed under the [MIT](/LICENSE) license.
